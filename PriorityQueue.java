@@ -1,3 +1,7 @@
+/*
+ * Implementation of Priority Queue structure
+ */
+
 
 public class PriorityQueue {
 	

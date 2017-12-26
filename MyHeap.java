@@ -1,4 +1,9 @@
 
+/*
+ * Implementation of heap Data structure
+
+ */
+
 public class MyHeap {
 	int [] harr;
 	int size=0;

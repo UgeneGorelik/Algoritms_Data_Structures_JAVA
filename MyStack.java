@@ -1,8 +1,13 @@
 
+/*
+ * Implementation of Stack Data structure
+ *
+ */
+
+
 public class MyStack {
 	public int size;
 	public int[] StackArray;
-	public int top=-1;
 	public int[] MinStack;
 	public int[] BigStack;
 	public int MinSize=0;

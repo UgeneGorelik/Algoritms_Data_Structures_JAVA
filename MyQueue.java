@@ -1,3 +1,6 @@
+/*
+ * Implementation of Queue Data structure
+  */
 
 public class MyQueue {
 	public int back=0;
