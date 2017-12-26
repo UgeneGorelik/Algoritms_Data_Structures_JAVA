@@ -1,12 +1,14 @@
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;;
-
 /*
  *Collection of Array releated algorithms
  * Frequently asked as Interview Questions
  *
  */
+
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;;
+
+
 
 public class ArrayQuestions {
 
