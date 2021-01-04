@@ -10,16 +10,11 @@ import java.util.Stack;
 public class MyGraph {
     int size;
     LinkedList<Integer> adjListArray[];
-
    
     MyGraph(int V)
     {
-        this.size = V;
-
-       
-        adjListArray = new LinkedList[V];
-
-        
+        this.size = V;       
+        adjListArray = new LinkedList[V];        
         for(int i = 0; i < V ; i++){
             adjListArray[i] = new LinkedList<>();
         }
@@ -35,13 +30,10 @@ public class MyGraph {
 //show members of the Graph
     public  void Display()
     {
-        for(int v = 0; v < size; v++)
-        {
+        for(int v = 0; v < size; v++)        {
             System.out.println( v);
-
             for(Integer pCrawl: adjListArray[v]){
-                System.out.print(pCrawl);
-            }
+                System.out.print(pCrawl);            }
             System.out.println("\n");
         }
     }
